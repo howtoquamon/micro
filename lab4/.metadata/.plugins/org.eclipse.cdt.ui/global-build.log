@@ -1,0 +1,601 @@
+09:56:06 **** Rebuild of configuration Debug for project lab4 ****
+Info: Internal Builder is used for build
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_cortex.o ..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_cortex.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Src\stm32l1xx_it.o ..\Src\stm32l1xx_it.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dac.o ..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dac.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dac_ex.o ..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dac_ex.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal.o ..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash_ex.o ..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash_ex.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dma.o ..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dma.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_tim_ex.o ..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_tim_ex.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash_ramfunc.o ..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash_ramfunc.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Src\stm32l1xx_hal_msp.o ..\Src\stm32l1xx_hal_msp.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_tim.o ..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_tim.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Src\main.o ..\Src\main.c 
+..\Src\main.c: In function 'main':
+..\Src\main.c:110:3: warning: implicit declaration of function 'HAL_DAC_End' [-Wimplicit-function-declaration]
+   HAL_DAC_End(&hdac, DAC_CHANNEL_1);
+   ^~~~~~~~~~~
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Src\system_stm32l1xx.o ..\Src\system_stm32l1xx.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash.o ..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_rcc_ex.o ..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_rcc_ex.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_gpio.o ..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_gpio.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_pwr_ex.o ..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_pwr_ex.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_rcc.o ..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_rcc.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -g -Wa,--no-warn -x assembler-with-cpp -specs=nano.specs -o startup\startup_stm32l152xe.o ..\startup\startup_stm32l152xe.s 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_pwr.o ..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_pwr.c 
+arm-atollic-eabi-gcc -o lab4.elf Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_cortex.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dac.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dac_ex.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dma.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash_ex.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash_ramfunc.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_gpio.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_pwr.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_pwr_ex.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_rcc.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_rcc_ex.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_tim.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_tim_ex.o Src\main.o Src\stm32l1xx_hal_msp.o Src\stm32l1xx_it.o Src\system_stm32l1xx.o startup\startup_stm32l152xe.o -mthumb -mcpu=cortex-m3 -T../STM32L152RE_FLASH.ld -specs=nosys.specs -static -Wl,-Map=lab4.map -Wl,--gc-sections -Wl,--defsym=malloc_getpagesize_P=0x80 -Wl,--start-group -lc -lm -Wl,--end-group -specs=nano.specs 
+Src\main.o: In function `main':
+U:\Micro2\New folder\lab4\Debug/..\Src/main.c:110: undefined reference to `HAL_DAC_End'
+collect2.exe: error: ld returned 1 exit status
+09:57:52 **** Incremental Build of configuration Debug for project lab4 ****
+Info: Internal Builder is used for build
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Src\main.o ..\Src\main.c 
+arm-atollic-eabi-gcc -o lab4.elf Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_cortex.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dac.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dac_ex.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dma.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash_ex.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash_ramfunc.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_gpio.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_pwr.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_pwr_ex.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_rcc.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_rcc_ex.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_tim.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_tim_ex.o Src\main.o Src\stm32l1xx_hal_msp.o Src\stm32l1xx_it.o Src\system_stm32l1xx.o startup\startup_stm32l152xe.o -mthumb -mcpu=cortex-m3 -T../STM32L152RE_FLASH.ld -specs=nosys.specs -static -Wl,-Map=lab4.map -Wl,--gc-sections -Wl,--defsym=malloc_getpagesize_P=0x80 -Wl,--start-group -lc -lm -Wl,--end-group -specs=nano.specs 
+E:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.0.1\ide\jre\bin\java -jar E:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.0.1\Tools\arm-atollic-reports.jar sizeinfo list lab4.elf 
+Generate build reports...
+Print size information
+   text	   data	    bss	    dec	    hex	filename
+   4624	     12	   1588	   6224	   1850	lab4.elf
+Print size information done
+Generate listing file
+Output sent to: lab4.list
+Generate listing file done
+Generate build reports done
+Info: Nothing to build for lab4
+10:42:06 **** Incremental Build of configuration Debug for project lab4 ****
+Info: Internal Builder is used for build
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dma.o ..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dma.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Src\main.o ..\Src\main.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dac_ex.o ..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dac_ex.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_uart.o ..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_uart.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_gpio.o ..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_gpio.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_pwr.o ..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_pwr.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dac.o ..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dac.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_tim.o ..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_tim.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash.o ..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Src\system_stm32l1xx.o ..\Src\system_stm32l1xx.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_rcc_ex.o ..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_rcc_ex.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_cortex.o ..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_cortex.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash_ramfunc.o ..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash_ramfunc.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_pwr_ex.o ..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_pwr_ex.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_rcc.o ..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_rcc.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_tim_ex.o ..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_tim_ex.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Src\stm32l1xx_hal_msp.o ..\Src\stm32l1xx_hal_msp.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal.o ..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Src\stm32l1xx_it.o ..\Src\stm32l1xx_it.c 
+..\Src\stm32l1xx_it.c: In function 'EXTI9_5_IRQHandler':
+..\Src\stm32l1xx_it.c:201:48: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  HAL_UART_Transmit(&huart1, "ok\n", (uint16_t) strlen("ok\n"), timeout);
+                                                ^~~~~~
+..\Src\stm32l1xx_it.c:201:48: warning: incompatible implicit declaration of built-in function 'strlen'
+..\Src\stm32l1xx_it.c:201:48: note: include '<string.h>' or provide a declaration of 'strlen'
+..\Src\stm32l1xx_it.c:201:64: error: 'timeout' undeclared (first use in this function)
+  HAL_UART_Transmit(&huart1, "ok\n", (uint16_t) strlen("ok\n"), timeout);
+                                                                ^~~~~~~
+..\Src\stm32l1xx_it.c:201:64: note: each undeclared identifier is reported only once for each function it appears in
+..\Src\stm32l1xx_it.c:201:29: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  HAL_UART_Transmit(&huart1, "ok\n", (uint16_t) strlen("ok\n"), timeout);
+                             ^~~~~~
+In file included from ../Inc/stm32l1xx_hal_conf.h:241:0,
+                 from ../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal.h:46,
+                 from ..\Src\stm32l1xx_it.c:34:
+../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_uart.h:700:19: note: expected 'uint8_t * {aka unsigned char *}' but argument is of type 'char *'
+ HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+                   ^~~~~~~~~~~~~~~~~
+10:43:22 **** Incremental Build of configuration Debug for project lab4 ****
+Info: Internal Builder is used for build
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash_ex.o ..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash_ex.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Src\main.o ..\Src\main.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Src\stm32l1xx_it.o ..\Src\stm32l1xx_it.c 
+..\Src\stm32l1xx_it.c: In function 'EXTI9_5_IRQHandler':
+..\Src\stm32l1xx_it.c:187:48: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  HAL_UART_Transmit(&huart1, "ok\n", (uint16_t) strlen("ok\n"), 100);
+                                                ^~~~~~
+..\Src\stm32l1xx_it.c:187:48: warning: incompatible implicit declaration of built-in function 'strlen'
+..\Src\stm32l1xx_it.c:187:48: note: include '<string.h>' or provide a declaration of 'strlen'
+..\Src\stm32l1xx_it.c:187:29: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  HAL_UART_Transmit(&huart1, "ok\n", (uint16_t) strlen("ok\n"), 100);
+                             ^~~~~~
+In file included from ../Inc/stm32l1xx_hal_conf.h:241:0,
+                 from ../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal.h:46,
+                 from ..\Src\stm32l1xx_it.c:34:
+../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_uart.h:700:19: note: expected 'uint8_t * {aka unsigned char *}' but argument is of type 'char *'
+ HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+                   ^~~~~~~~~~~~~~~~~
+arm-atollic-eabi-gcc -o lab4.elf Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_cortex.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dac.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dac_ex.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dma.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash_ex.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash_ramfunc.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_gpio.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_pwr.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_pwr_ex.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_rcc.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_rcc_ex.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_tim.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_tim_ex.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_uart.o Src\main.o Src\stm32l1xx_hal_msp.o Src\stm32l1xx_it.o Src\system_stm32l1xx.o startup\startup_stm32l152xe.o -mthumb -mcpu=cortex-m3 -T../STM32L152RE_FLASH.ld -specs=nosys.specs -static -Wl,-Map=lab4.map -Wl,--gc-sections -Wl,--defsym=malloc_getpagesize_P=0x80 -Wl,--start-group -lc -lm -Wl,--end-group -specs=nano.specs 
+E:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.0.1\ide\jre\bin\java -jar E:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.0.1\Tools\arm-atollic-reports.jar sizeinfo list lab4.elf 
+Generate build reports...
+Print size information
+   text	   data	    bss	    dec	    hex	filename
+   5828	     12	   1652	   7492	   1d44	lab4.elf
+Print size information done
+Generate listing file
+Output sent to: lab4.list
+Generate listing file done
+Generate build reports done
+Info: Nothing to build for lab4
+Info: Nothing to build for lab4
+Info: Nothing to build for lab4
+10:47:06 **** Incremental Build of configuration Debug for project lab4 ****
+Info: Internal Builder is used for build
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Src\main.o ..\Src\main.c 
+..\Src\main.c: In function 'main':
+..\Src\main.c:107:48: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  HAL_UART_Transmit(&huart1, "ok\n", (uint16_t) strlen("ok\n"), 100);
+                                                ^~~~~~
+..\Src\main.c:107:48: warning: incompatible implicit declaration of built-in function 'strlen'
+..\Src\main.c:107:48: note: include '<string.h>' or provide a declaration of 'strlen'
+..\Src\main.c:107:29: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  HAL_UART_Transmit(&huart1, "ok\n", (uint16_t) strlen("ok\n"), 100);
+                             ^~~~~~
+In file included from ../Inc/stm32l1xx_hal_conf.h:241:0,
+                 from ../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal.h:46,
+                 from ..\Src\main.c:40:
+../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_uart.h:700:19: note: expected 'uint8_t * {aka unsigned char *}' but argument is of type 'char *'
+ HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+                   ^~~~~~~~~~~~~~~~~
+arm-atollic-eabi-gcc -o lab4.elf Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_cortex.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dac.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dac_ex.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dma.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash_ex.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash_ramfunc.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_gpio.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_pwr.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_pwr_ex.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_rcc.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_rcc_ex.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_tim.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_tim_ex.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_uart.o Src\main.o Src\stm32l1xx_hal_msp.o Src\stm32l1xx_it.o Src\system_stm32l1xx.o startup\startup_stm32l152xe.o -mthumb -mcpu=cortex-m3 -T../STM32L152RE_FLASH.ld -specs=nosys.specs -static -Wl,-Map=lab4.map -Wl,--gc-sections -Wl,--defsym=malloc_getpagesize_P=0x80 -Wl,--start-group -lc -lm -Wl,--end-group -specs=nano.specs 
+E:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.0.1\ide\jre\bin\java -jar E:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.0.1\Tools\arm-atollic-reports.jar sizeinfo list lab4.elf 
+Generate build reports...
+Print size information
+   text	   data	    bss	    dec	    hex	filename
+   5844	     12	   1652	   7508	   1d54	lab4.elf
+Print size information done
+Generate listing file
+Output sent to: lab4.list
+Generate listing file done
+Generate build reports done
+10:48:00 **** Incremental Build of configuration Debug for project lab4 ****
+Info: Internal Builder is used for build
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Src\main.o ..\Src\main.c 
+..\Src\main.c: In function 'main':
+..\Src\main.c:113:49: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+   HAL_UART_Transmit(&huart1, "ok\n", (uint16_t) strlen("ok\n"), 100);
+                                                 ^~~~~~
+..\Src\main.c:113:49: warning: incompatible implicit declaration of built-in function 'strlen'
+..\Src\main.c:113:49: note: include '<string.h>' or provide a declaration of 'strlen'
+..\Src\main.c:113:30: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+   HAL_UART_Transmit(&huart1, "ok\n", (uint16_t) strlen("ok\n"), 100);
+                              ^~~~~~
+In file included from ../Inc/stm32l1xx_hal_conf.h:241:0,
+                 from ../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal.h:46,
+                 from ..\Src\main.c:40:
+../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_uart.h:700:19: note: expected 'uint8_t * {aka unsigned char *}' but argument is of type 'char *'
+ HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+                   ^~~~~~~~~~~~~~~~~
+arm-atollic-eabi-gcc -o lab4.elf Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_cortex.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dac.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dac_ex.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dma.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash_ex.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash_ramfunc.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_gpio.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_pwr.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_pwr_ex.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_rcc.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_rcc_ex.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_tim.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_tim_ex.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_uart.o Src\main.o Src\stm32l1xx_hal_msp.o Src\stm32l1xx_it.o Src\system_stm32l1xx.o startup\startup_stm32l152xe.o -mthumb -mcpu=cortex-m3 -T../STM32L152RE_FLASH.ld -specs=nosys.specs -static -Wl,-Map=lab4.map -Wl,--gc-sections -Wl,--defsym=malloc_getpagesize_P=0x80 -Wl,--start-group -lc -lm -Wl,--end-group -specs=nano.specs 
+E:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.0.1\ide\jre\bin\java -jar E:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.0.1\Tools\arm-atollic-reports.jar sizeinfo list lab4.elf 
+Generate build reports...
+Print size information
+   text	   data	    bss	    dec	    hex	filename
+   5844	     12	   1652	   7508	   1d54	lab4.elf
+Print size information done
+Generate listing file
+Output sent to: lab4.list
+Generate listing file done
+Generate build reports done
+10:52:43 **** Incremental Build of configuration Debug for project lab4 ****
+Info: Internal Builder is used for build
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dac_ex.o ..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dac_ex.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_uart.o ..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_uart.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_tim.o ..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_tim.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash_ex.o ..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash_ex.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Src\main.o ..\Src\main.c 
+..\Src\main.c: In function 'main':
+..\Src\main.c:112:22: error: 'huart1' undeclared (first use in this function)
+   HAL_UART_Transmit(&huart1, "ok\n", (uint16_t) strlen("ok\n"), 100);
+                      ^~~~~~
+..\Src\main.c:112:22: note: each undeclared identifier is reported only once for each function it appears in
+..\Src\main.c:112:49: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+   HAL_UART_Transmit(&huart1, "ok\n", (uint16_t) strlen("ok\n"), 100);
+                                                 ^~~~~~
+..\Src\main.c:112:49: warning: incompatible implicit declaration of built-in function 'strlen'
+..\Src\main.c:112:49: note: include '<string.h>' or provide a declaration of 'strlen'
+..\Src\main.c:112:30: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+   HAL_UART_Transmit(&huart1, "ok\n", (uint16_t) strlen("ok\n"), 100);
+                              ^~~~~~
+In file included from ../Inc/stm32l1xx_hal_conf.h:241:0,
+                 from ../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal.h:46,
+                 from ..\Src\main.c:40:
+../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_uart.h:700:19: note: expected 'uint8_t * {aka unsigned char *}' but argument is of type 'char *'
+ HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+                   ^~~~~~~~~~~~~~~~~
+10:53:18 **** Incremental Build of configuration Debug for project lab4 ****
+Info: Internal Builder is used for build
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dma.o ..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dma.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_pwr_ex.o ..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_pwr_ex.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_rcc.o ..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_rcc.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_pwr.o ..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_pwr.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash.o ..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Src\stm32l1xx_it.o ..\Src\stm32l1xx_it.c 
+..\Src\stm32l1xx_it.c: In function 'EXTI9_5_IRQHandler':
+..\Src\stm32l1xx_it.c:202:48: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  HAL_UART_Transmit(&huart2, "ok\n", (uint16_t) strlen("ok\n"), 100);
+                                                ^~~~~~
+..\Src\stm32l1xx_it.c:202:48: warning: incompatible implicit declaration of built-in function 'strlen'
+..\Src\stm32l1xx_it.c:202:48: note: include '<string.h>' or provide a declaration of 'strlen'
+..\Src\stm32l1xx_it.c:202:29: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  HAL_UART_Transmit(&huart2, "ok\n", (uint16_t) strlen("ok\n"), 100);
+                             ^~~~~~
+In file included from ../Inc/stm32l1xx_hal_conf.h:241:0,
+                 from ../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal.h:46,
+                 from ..\Src\stm32l1xx_it.c:34:
+../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_uart.h:700:19: note: expected 'uint8_t * {aka unsigned char *}' but argument is of type 'char *'
+ HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+                   ^~~~~~~~~~~~~~~~~
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_tim_ex.o ..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_tim_ex.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal.o ..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_cortex.o ..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_cortex.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Src\main.o ..\Src\main.c 
+..\Src\main.c: In function 'main':
+..\Src\main.c:112:49: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+   HAL_UART_Transmit(&huart2, "ok\n", (uint16_t) strlen("ok\n"), 100);
+                                                 ^~~~~~
+..\Src\main.c:112:49: warning: incompatible implicit declaration of built-in function 'strlen'
+..\Src\main.c:112:49: note: include '<string.h>' or provide a declaration of 'strlen'
+..\Src\main.c:112:30: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+   HAL_UART_Transmit(&huart2, "ok\n", (uint16_t) strlen("ok\n"), 100);
+                              ^~~~~~
+In file included from ../Inc/stm32l1xx_hal_conf.h:241:0,
+                 from ../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal.h:46,
+                 from ..\Src\main.c:40:
+../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_uart.h:700:19: note: expected 'uint8_t * {aka unsigned char *}' but argument is of type 'char *'
+ HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+                   ^~~~~~~~~~~~~~~~~
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_rcc_ex.o ..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_rcc_ex.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash_ramfunc.o ..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash_ramfunc.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dac.o ..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dac.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Src\stm32l1xx_hal_msp.o ..\Src\stm32l1xx_hal_msp.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_gpio.o ..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_gpio.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Src\system_stm32l1xx.o ..\Src\system_stm32l1xx.c 
+arm-atollic-eabi-gcc -o lab4.elf Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_cortex.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dac.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dac_ex.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dma.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash_ex.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash_ramfunc.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_gpio.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_pwr.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_pwr_ex.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_rcc.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_rcc_ex.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_tim.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_tim_ex.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_uart.o Src\main.o Src\stm32l1xx_hal_msp.o Src\stm32l1xx_it.o Src\system_stm32l1xx.o startup\startup_stm32l152xe.o -mthumb -mcpu=cortex-m3 -T../STM32L152RE_FLASH.ld -specs=nosys.specs -static -Wl,-Map=lab4.map -Wl,--gc-sections -Wl,--defsym=malloc_getpagesize_P=0x80 -Wl,--start-group -lc -lm -Wl,--end-group -specs=nano.specs 
+E:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.0.1\ide\jre\bin\java -jar E:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.0.1\Tools\arm-atollic-reports.jar sizeinfo list lab4.elf 
+Generate build reports...
+Print size information
+   text	   data	    bss	    dec	    hex	filename
+   6268	     12	   1652	   7932	   1efc	lab4.elf
+Print size information done
+Generate listing file
+Output sent to: lab4.list
+Generate listing file done
+Generate build reports done
+Info: Nothing to build for lab4
+10:54:16 **** Incremental Build of configuration Debug for project lab4 ****
+Info: Internal Builder is used for build
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Src\main.o ..\Src\main.c 
+arm-atollic-eabi-gcc -o lab4.elf Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_cortex.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dac.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dac_ex.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dma.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash_ex.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash_ramfunc.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_gpio.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_pwr.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_pwr_ex.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_rcc.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_rcc_ex.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_tim.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_tim_ex.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_uart.o Src\main.o Src\stm32l1xx_hal_msp.o Src\stm32l1xx_it.o Src\system_stm32l1xx.o startup\startup_stm32l152xe.o -mthumb -mcpu=cortex-m3 -T../STM32L152RE_FLASH.ld -specs=nosys.specs -static -Wl,-Map=lab4.map -Wl,--gc-sections -Wl,--defsym=malloc_getpagesize_P=0x80 -Wl,--start-group -lc -lm -Wl,--end-group -specs=nano.specs 
+E:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.0.1\ide\jre\bin\java -jar E:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.0.1\Tools\arm-atollic-reports.jar sizeinfo list lab4.elf 
+Generate build reports...
+Print size information
+   text	   data	    bss	    dec	    hex	filename
+   6252	     12	   1652	   7916	   1eec	lab4.elf
+Print size information done
+Generate listing file
+Output sent to: lab4.list
+Generate listing file done
+Generate build reports done
+10:57:12 **** Incremental Build of configuration Debug for project lab4 ****
+Info: Internal Builder is used for build
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Src\stm32l1xx_it.o ..\Src\stm32l1xx_it.c 
+..\Src\stm32l1xx_it.c: In function 'EXTI9_5_IRQHandler':
+..\Src\stm32l1xx_it.c:202:49: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  HAL_UART_Transmit(&huart2, "ok1\n", (uint16_t) strlen("ok1\n"), 100);
+                                                 ^~~~~~
+..\Src\stm32l1xx_it.c:202:49: warning: incompatible implicit declaration of built-in function 'strlen'
+..\Src\stm32l1xx_it.c:202:49: note: include '<string.h>' or provide a declaration of 'strlen'
+..\Src\stm32l1xx_it.c:202:29: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  HAL_UART_Transmit(&huart2, "ok1\n", (uint16_t) strlen("ok1\n"), 100);
+                             ^~~~~~~
+In file included from ../Inc/stm32l1xx_hal_conf.h:241:0,
+                 from ../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal.h:46,
+                 from ..\Src\stm32l1xx_it.c:34:
+../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_uart.h:700:19: note: expected 'uint8_t * {aka unsigned char *}' but argument is of type 'char *'
+ HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+                   ^~~~~~~~~~~~~~~~~
+arm-atollic-eabi-gcc -o lab4.elf Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_cortex.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dac.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dac_ex.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dma.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash_ex.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash_ramfunc.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_gpio.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_pwr.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_pwr_ex.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_rcc.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_rcc_ex.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_tim.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_tim_ex.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_uart.o Src\main.o Src\stm32l1xx_hal_msp.o Src\stm32l1xx_it.o Src\system_stm32l1xx.o startup\startup_stm32l152xe.o -mthumb -mcpu=cortex-m3 -T../STM32L152RE_FLASH.ld -specs=nosys.specs -static -Wl,-Map=lab4.map -Wl,--gc-sections -Wl,--defsym=malloc_getpagesize_P=0x80 -Wl,--start-group -lc -lm -Wl,--end-group -specs=nano.specs 
+E:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.0.1\ide\jre\bin\java -jar E:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.0.1\Tools\arm-atollic-reports.jar sizeinfo list lab4.elf 
+Generate build reports...
+Print size information
+   text	   data	    bss	    dec	    hex	filename
+   6252	     12	   1652	   7916	   1eec	lab4.elf
+Print size information done
+Generate listing file
+Output sent to: lab4.list
+Generate listing file done
+Generate build reports done
+11:04:01 **** Incremental Build of configuration Debug for project lab4 ****
+Info: Internal Builder is used for build
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Src\stm32l1xx_it.o ..\Src\stm32l1xx_it.c 
+..\Src\stm32l1xx_it.c: In function 'EXTI9_5_IRQHandler':
+..\Src\stm32l1xx_it.c:187:14: warning: implicit declaration of function 'HAL_GPIO_GetPin' [-Wimplicit-function-declaration]
+  int8_t up = HAL_GPIO_GetPin(GPIOA, GPIO_PIN_7);
+              ^~~~~~~~~~~~~~~
+..\Src\stm32l1xx_it.c:189:49: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+   HAL_UART_Transmit(&huart2, "up\n", (uint16_t) strlen("up\n"), 100);
+                                                 ^~~~~~
+..\Src\stm32l1xx_it.c:189:49: warning: incompatible implicit declaration of built-in function 'strlen'
+..\Src\stm32l1xx_it.c:189:49: note: include '<string.h>' or provide a declaration of 'strlen'
+..\Src\stm32l1xx_it.c:189:30: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+   HAL_UART_Transmit(&huart2, "up\n", (uint16_t) strlen("up\n"), 100);
+                              ^~~~~~
+In file included from ../Inc/stm32l1xx_hal_conf.h:241:0,
+                 from ../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal.h:46,
+                 from ..\Src\stm32l1xx_it.c:34:
+../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_uart.h:700:19: note: expected 'uint8_t * {aka unsigned char *}' but argument is of type 'char *'
+ HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+                   ^~~~~~~~~~~~~~~~~
+..\Src\stm32l1xx_it.c:191:51: warning: incompatible implicit declaration of built-in function 'strlen'
+   HAL_UART_Transmit(&huart2, "down\n", (uint16_t) strlen("down\n"), 100);
+                                                   ^~~~~~
+..\Src\stm32l1xx_it.c:191:51: note: include '<string.h>' or provide a declaration of 'strlen'
+..\Src\stm32l1xx_it.c:191:30: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+   HAL_UART_Transmit(&huart2, "down\n", (uint16_t) strlen("down\n"), 100);
+                              ^~~~~~~~
+In file included from ../Inc/stm32l1xx_hal_conf.h:241:0,
+                 from ../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal.h:46,
+                 from ..\Src\stm32l1xx_it.c:34:
+../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_uart.h:700:19: note: expected 'uint8_t * {aka unsigned char *}' but argument is of type 'char *'
+ HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+                   ^~~~~~~~~~~~~~~~~
+arm-atollic-eabi-gcc -o lab4.elf Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_cortex.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dac.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dac_ex.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dma.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash_ex.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash_ramfunc.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_gpio.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_pwr.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_pwr_ex.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_rcc.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_rcc_ex.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_tim.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_tim_ex.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_uart.o Src\main.o Src\stm32l1xx_hal_msp.o Src\stm32l1xx_it.o Src\system_stm32l1xx.o startup\startup_stm32l152xe.o -mthumb -mcpu=cortex-m3 -T../STM32L152RE_FLASH.ld -specs=nosys.specs -static -Wl,-Map=lab4.map -Wl,--gc-sections -Wl,--defsym=malloc_getpagesize_P=0x80 -Wl,--start-group -lc -lm -Wl,--end-group -specs=nano.specs 
+Src\stm32l1xx_it.o: In function `EXTI9_5_IRQHandler':
+U:\Micro2\New folder\lab4\Debug/..\Src/stm32l1xx_it.c:187: undefined reference to `HAL_GPIO_GetPin'
+collect2.exe: error: ld returned 1 exit status
+11:04:12 **** Incremental Build of configuration Debug for project lab4 ****
+Info: Internal Builder is used for build
+arm-atollic-eabi-gcc -o lab4.elf Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_cortex.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dac.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dac_ex.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dma.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash_ex.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash_ramfunc.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_gpio.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_pwr.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_pwr_ex.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_rcc.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_rcc_ex.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_tim.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_tim_ex.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_uart.o Src\main.o Src\stm32l1xx_hal_msp.o Src\stm32l1xx_it.o Src\system_stm32l1xx.o startup\startup_stm32l152xe.o -mthumb -mcpu=cortex-m3 -T../STM32L152RE_FLASH.ld -specs=nosys.specs -static -Wl,-Map=lab4.map -Wl,--gc-sections -Wl,--defsym=malloc_getpagesize_P=0x80 -Wl,--start-group -lc -lm -Wl,--end-group -specs=nano.specs 
+Src\stm32l1xx_it.o: In function `EXTI9_5_IRQHandler':
+U:\Micro2\New folder\lab4\Debug/..\Src/stm32l1xx_it.c:187: undefined reference to `HAL_GPIO_GetPin'
+collect2.exe: error: ld returned 1 exit status
+11:05:35 **** Incremental Build of configuration Debug for project lab4 ****
+Info: Internal Builder is used for build
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Src\stm32l1xx_it.o ..\Src\stm32l1xx_it.c 
+..\Src\stm32l1xx_it.c: In function 'EXTI9_5_IRQHandler':
+..\Src\stm32l1xx_it.c:187:21: warning: implicit declaration of function 'HAL_GPIO_GetPin' [-Wimplicit-function-declaration]
+  GPIO_PinState up = HAL_GPIO_GetPin(GPIOA, GPIO_PIN_7);
+                     ^~~~~~~~~~~~~~~
+..\Src\stm32l1xx_it.c:189:49: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+   HAL_UART_Transmit(&huart2, "up\n", (uint16_t) strlen("up\n"), 100);
+                                                 ^~~~~~
+..\Src\stm32l1xx_it.c:189:49: warning: incompatible implicit declaration of built-in function 'strlen'
+..\Src\stm32l1xx_it.c:189:49: note: include '<string.h>' or provide a declaration of 'strlen'
+..\Src\stm32l1xx_it.c:189:30: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+   HAL_UART_Transmit(&huart2, "up\n", (uint16_t) strlen("up\n"), 100);
+                              ^~~~~~
+In file included from ../Inc/stm32l1xx_hal_conf.h:241:0,
+                 from ../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal.h:46,
+                 from ..\Src\stm32l1xx_it.c:34:
+../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_uart.h:700:19: note: expected 'uint8_t * {aka unsigned char *}' but argument is of type 'char *'
+ HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+                   ^~~~~~~~~~~~~~~~~
+..\Src\stm32l1xx_it.c:191:51: warning: incompatible implicit declaration of built-in function 'strlen'
+   HAL_UART_Transmit(&huart2, "down\n", (uint16_t) strlen("down\n"), 100);
+                                                   ^~~~~~
+..\Src\stm32l1xx_it.c:191:51: note: include '<string.h>' or provide a declaration of 'strlen'
+..\Src\stm32l1xx_it.c:191:30: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+   HAL_UART_Transmit(&huart2, "down\n", (uint16_t) strlen("down\n"), 100);
+                              ^~~~~~~~
+In file included from ../Inc/stm32l1xx_hal_conf.h:241:0,
+                 from ../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal.h:46,
+                 from ..\Src\stm32l1xx_it.c:34:
+../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_uart.h:700:19: note: expected 'uint8_t * {aka unsigned char *}' but argument is of type 'char *'
+ HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+                   ^~~~~~~~~~~~~~~~~
+arm-atollic-eabi-gcc -o lab4.elf Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_cortex.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dac.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dac_ex.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dma.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash_ex.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash_ramfunc.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_gpio.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_pwr.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_pwr_ex.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_rcc.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_rcc_ex.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_tim.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_tim_ex.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_uart.o Src\main.o Src\stm32l1xx_hal_msp.o Src\stm32l1xx_it.o Src\system_stm32l1xx.o startup\startup_stm32l152xe.o -mthumb -mcpu=cortex-m3 -T../STM32L152RE_FLASH.ld -specs=nosys.specs -static -Wl,-Map=lab4.map -Wl,--gc-sections -Wl,--defsym=malloc_getpagesize_P=0x80 -Wl,--start-group -lc -lm -Wl,--end-group -specs=nano.specs 
+Src\stm32l1xx_it.o: In function `EXTI9_5_IRQHandler':
+U:\Micro2\New folder\lab4\Debug/..\Src/stm32l1xx_it.c:187: undefined reference to `HAL_GPIO_GetPin'
+collect2.exe: error: ld returned 1 exit status
+11:06:12 **** Incremental Build of configuration Debug for project lab4 ****
+Info: Internal Builder is used for build
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Src\stm32l1xx_it.o ..\Src\stm32l1xx_it.c 
+..\Src\stm32l1xx_it.c: In function 'EXTI9_5_IRQHandler':
+..\Src\stm32l1xx_it.c:189:49: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+   HAL_UART_Transmit(&huart2, "up\n", (uint16_t) strlen("up\n"), 100);
+                                                 ^~~~~~
+..\Src\stm32l1xx_it.c:189:49: warning: incompatible implicit declaration of built-in function 'strlen'
+..\Src\stm32l1xx_it.c:189:49: note: include '<string.h>' or provide a declaration of 'strlen'
+..\Src\stm32l1xx_it.c:189:30: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+   HAL_UART_Transmit(&huart2, "up\n", (uint16_t) strlen("up\n"), 100);
+                              ^~~~~~
+In file included from ../Inc/stm32l1xx_hal_conf.h:241:0,
+                 from ../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal.h:46,
+                 from ..\Src\stm32l1xx_it.c:34:
+../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_uart.h:700:19: note: expected 'uint8_t * {aka unsigned char *}' but argument is of type 'char *'
+ HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+                   ^~~~~~~~~~~~~~~~~
+..\Src\stm32l1xx_it.c:191:51: warning: incompatible implicit declaration of built-in function 'strlen'
+   HAL_UART_Transmit(&huart2, "down\n", (uint16_t) strlen("down\n"), 100);
+                                                   ^~~~~~
+..\Src\stm32l1xx_it.c:191:51: note: include '<string.h>' or provide a declaration of 'strlen'
+..\Src\stm32l1xx_it.c:191:30: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+   HAL_UART_Transmit(&huart2, "down\n", (uint16_t) strlen("down\n"), 100);
+                              ^~~~~~~~
+In file included from ../Inc/stm32l1xx_hal_conf.h:241:0,
+                 from ../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal.h:46,
+                 from ..\Src\stm32l1xx_it.c:34:
+../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_uart.h:700:19: note: expected 'uint8_t * {aka unsigned char *}' but argument is of type 'char *'
+ HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+                   ^~~~~~~~~~~~~~~~~
+arm-atollic-eabi-gcc -o lab4.elf Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_cortex.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dac.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dac_ex.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dma.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash_ex.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash_ramfunc.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_gpio.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_pwr.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_pwr_ex.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_rcc.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_rcc_ex.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_tim.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_tim_ex.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_uart.o Src\main.o Src\stm32l1xx_hal_msp.o Src\stm32l1xx_it.o Src\system_stm32l1xx.o startup\startup_stm32l152xe.o -mthumb -mcpu=cortex-m3 -T../STM32L152RE_FLASH.ld -specs=nosys.specs -static -Wl,-Map=lab4.map -Wl,--gc-sections -Wl,--defsym=malloc_getpagesize_P=0x80 -Wl,--start-group -lc -lm -Wl,--end-group -specs=nano.specs 
+E:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.0.1\ide\jre\bin\java -jar E:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.0.1\Tools\arm-atollic-reports.jar sizeinfo list lab4.elf 
+Generate build reports...
+Print size information
+   text	   data	    bss	    dec	    hex	filename
+   6292	     12	   1652	   7956	   1f14	lab4.elf
+Print size information done
+Generate listing file
+Output sent to: lab4.list
+Generate listing file done
+Generate build reports done
+Info: Nothing to build for lab4
+11:09:27 **** Incremental Build of configuration Debug for project lab4 ****
+Info: Internal Builder is used for build
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dac_ex.o ..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dac_ex.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Src\stm32l1xx_hal_msp.o ..\Src\stm32l1xx_hal_msp.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_pwr_ex.o ..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_pwr_ex.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_tim.o ..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_tim.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Src\system_stm32l1xx.o ..\Src\system_stm32l1xx.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal.o ..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash.o ..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dma.o ..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dma.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Src\main.o ..\Src\main.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash_ex.o ..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash_ex.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash_ramfunc.o ..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash_ramfunc.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_tim_ex.o ..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_tim_ex.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Src\stm32l1xx_it.o ..\Src\stm32l1xx_it.c 
+..\Src\stm32l1xx_it.c: In function 'EXTI9_5_IRQHandler':
+..\Src\stm32l1xx_it.c:189:49: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+   HAL_UART_Transmit(&huart2, "up\n", (uint16_t) strlen("up\n"), 100);
+                                                 ^~~~~~
+..\Src\stm32l1xx_it.c:189:49: warning: incompatible implicit declaration of built-in function 'strlen'
+..\Src\stm32l1xx_it.c:189:49: note: include '<string.h>' or provide a declaration of 'strlen'
+..\Src\stm32l1xx_it.c:189:30: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+   HAL_UART_Transmit(&huart2, "up\n", (uint16_t) strlen("up\n"), 100);
+                              ^~~~~~
+In file included from ../Inc/stm32l1xx_hal_conf.h:241:0,
+                 from ../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal.h:46,
+                 from ..\Src\stm32l1xx_it.c:34:
+../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_uart.h:700:19: note: expected 'uint8_t * {aka unsigned char *}' but argument is of type 'char *'
+ HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+                   ^~~~~~~~~~~~~~~~~
+..\Src\stm32l1xx_it.c:191:51: warning: incompatible implicit declaration of built-in function 'strlen'
+   HAL_UART_Transmit(&huart2, "down\n", (uint16_t) strlen("down\n"), 100);
+                                                   ^~~~~~
+..\Src\stm32l1xx_it.c:191:51: note: include '<string.h>' or provide a declaration of 'strlen'
+..\Src\stm32l1xx_it.c:191:30: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+   HAL_UART_Transmit(&huart2, "down\n", (uint16_t) strlen("down\n"), 100);
+                              ^~~~~~~~
+In file included from ../Inc/stm32l1xx_hal_conf.h:241:0,
+                 from ../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal.h:46,
+                 from ..\Src\stm32l1xx_it.c:34:
+../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_uart.h:700:19: note: expected 'uint8_t * {aka unsigned char *}' but argument is of type 'char *'
+ HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+                   ^~~~~~~~~~~~~~~~~
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_rcc.o ..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_rcc.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dac.o ..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dac.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_cortex.o ..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_cortex.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_gpio.o ..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_gpio.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_rcc_ex.o ..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_rcc_ex.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_uart.o ..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_uart.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_pwr.o ..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_pwr.c 
+arm-atollic-eabi-gcc -o lab4.elf Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_cortex.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dac.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dac_ex.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dma.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash_ex.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash_ramfunc.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_gpio.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_pwr.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_pwr_ex.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_rcc.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_rcc_ex.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_tim.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_tim_ex.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_uart.o Src\main.o Src\stm32l1xx_hal_msp.o Src\stm32l1xx_it.o Src\system_stm32l1xx.o startup\startup_stm32l152xe.o -mthumb -mcpu=cortex-m3 -T../STM32L152RE_FLASH.ld -specs=nosys.specs -static -Wl,-Map=lab4.map -Wl,--gc-sections -Wl,--defsym=malloc_getpagesize_P=0x80 -Wl,--start-group -lc -lm -Wl,--end-group -specs=nano.specs 
+E:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.0.1\ide\jre\bin\java -jar E:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.0.1\Tools\arm-atollic-reports.jar sizeinfo list lab4.elf 
+Generate build reports...
+Print size information
+   text	   data	    bss	    dec	    hex	filename
+   6292	     12	   1652	   7956	   1f14	lab4.elf
+Print size information done
+Generate listing file
+Output sent to: lab4.list
+Generate listing file done
+Generate build reports done
+Info: Nothing to build for lab4
+11:14:53 **** Incremental Build of configuration Debug for project lab4 ****
+Info: Internal Builder is used for build
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Src\main.o ..\Src\main.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Src\stm32l1xx_it.o ..\Src\stm32l1xx_it.c 
+arm-atollic-eabi-gcc -o lab4.elf Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_cortex.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dac.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dac_ex.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dma.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash_ex.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash_ramfunc.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_gpio.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_pwr.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_pwr_ex.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_rcc.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_rcc_ex.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_tim.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_tim_ex.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_uart.o Src\main.o Src\stm32l1xx_hal_msp.o Src\stm32l1xx_it.o Src\system_stm32l1xx.o startup\startup_stm32l152xe.o -mthumb -mcpu=cortex-m3 -T../STM32L152RE_FLASH.ld -specs=nosys.specs -static -Wl,-Map=lab4.map -Wl,--gc-sections -Wl,--defsym=malloc_getpagesize_P=0x80 -Wl,--start-group -lc -lm -Wl,--end-group -specs=nano.specs 
+E:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.0.1\ide\jre\bin\java -jar E:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.0.1\Tools\arm-atollic-reports.jar sizeinfo list lab4.elf 
+Generate build reports...
+Print size information
+   text	   data	    bss	    dec	    hex	filename
+   6000	     12	   1656	   7668	   1df4	lab4.elf
+Print size information done
+Generate listing file
+Output sent to: lab4.list
+Generate listing file done
+Generate build reports done
+11:18:39 **** Incremental Build of configuration Debug for project lab4 ****
+Info: Internal Builder is used for build
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Src\stm32l1xx_it.o ..\Src\stm32l1xx_it.c 
+..\Src\stm32l1xx_it.c: In function 'EXTI9_5_IRQHandler':
+..\Src\stm32l1xx_it.c:196:10: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  sprintf(buffer, "%d\n", level);
+          ^~~~~~
+In file included from e:\program files (x86)\atollic\truestudio for stm32 9.0.1\armtools\arm-atollic-eabi\include\stdio.h:29:0,
+                 from ../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_def.h:48,
+                 from ../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_rcc.h:45,
+                 from ../Inc/stm32l1xx_hal_conf.h:153,
+                 from ../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal.h:46,
+                 from ..\Src\stm32l1xx_it.c:34:
+e:\program files (x86)\atollic\truestudio for stm32 9.0.1\armtools\arm-atollic-eabi\include\stdio.h:244:5: note: expected 'char * restrict' but argument is of type 'uint8_t * {aka unsigned char *}'
+ int _EXFUN(sprintf, (char *__restrict, const char *__restrict, ...)
+     ^
+..\Src\stm32l1xx_it.c:197:48: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  HAL_UART_Transmit(&huart2, buffer, (uint16_t) strlen(buffer), 100);
+                                                ^~~~~~
+..\Src\stm32l1xx_it.c:197:48: warning: incompatible implicit declaration of built-in function 'strlen'
+..\Src\stm32l1xx_it.c:197:48: note: include '<string.h>' or provide a declaration of 'strlen'
+..\Src\stm32l1xx_it.c:197:55: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+  HAL_UART_Transmit(&huart2, buffer, (uint16_t) strlen(buffer), 100);
+                                                       ^~~~~~
+..\Src\stm32l1xx_it.c:197:55: note: expected 'const char *' but argument is of type 'uint8_t * {aka unsigned char *}'
+arm-atollic-eabi-gcc -o lab4.elf Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_cortex.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dac.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dac_ex.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dma.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash_ex.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash_ramfunc.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_gpio.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_pwr.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_pwr_ex.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_rcc.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_rcc_ex.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_tim.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_tim_ex.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_uart.o Src\main.o Src\stm32l1xx_hal_msp.o Src\stm32l1xx_it.o Src\system_stm32l1xx.o startup\startup_stm32l152xe.o -mthumb -mcpu=cortex-m3 -T../STM32L152RE_FLASH.ld -specs=nosys.specs -static -Wl,-Map=lab4.map -Wl,--gc-sections -Wl,--defsym=malloc_getpagesize_P=0x80 -Wl,--start-group -lc -lm -Wl,--end-group -specs=nano.specs 
+E:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.0.1\ide\jre\bin\java -jar E:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.0.1\Tools\arm-atollic-reports.jar sizeinfo list lab4.elf 
+Generate build reports...
+Print size information
+   text	   data	    bss	    dec	    hex	filename
+   8556	    112	   1672	  10340	   2864	lab4.elf
+Print size information done
+Generate listing file
+Output sent to: lab4.list
+Generate listing file done
+Generate build reports done
+Info: Nothing to build for lab4
+11:25:30 **** Incremental Build of configuration Debug for project lab4 ****
+Info: Internal Builder is used for build
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dma.o ..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dma.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash_ramfunc.o ..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash_ramfunc.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Src\stm32l1xx_it.o ..\Src\stm32l1xx_it.c 
+..\Src\stm32l1xx_it.c: In function 'EXTI9_5_IRQHandler':
+..\Src\stm32l1xx_it.c:210:10: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  sprintf(buffer, "%d\n", level);
+          ^~~~~~
+In file included from e:\program files (x86)\atollic\truestudio for stm32 9.0.1\armtools\arm-atollic-eabi\include\stdio.h:29:0,
+                 from ../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_def.h:48,
+                 from ../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_rcc.h:45,
+                 from ../Inc/stm32l1xx_hal_conf.h:153,
+                 from ../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal.h:46,
+                 from ..\Src\stm32l1xx_it.c:34:
+e:\program files (x86)\atollic\truestudio for stm32 9.0.1\armtools\arm-atollic-eabi\include\stdio.h:244:5: note: expected 'char * restrict' but argument is of type 'uint8_t * {aka unsigned char *}'
+ int _EXFUN(sprintf, (char *__restrict, const char *__restrict, ...)
+     ^
+..\Src\stm32l1xx_it.c:211:48: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  HAL_UART_Transmit(&huart2, buffer, (uint16_t) strlen(buffer), 100);
+                                                ^~~~~~
+..\Src\stm32l1xx_it.c:211:48: warning: incompatible implicit declaration of built-in function 'strlen'
+..\Src\stm32l1xx_it.c:211:48: note: include '<string.h>' or provide a declaration of 'strlen'
+..\Src\stm32l1xx_it.c:211:55: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+  HAL_UART_Transmit(&huart2, buffer, (uint16_t) strlen(buffer), 100);
+                                                       ^~~~~~
+..\Src\stm32l1xx_it.c:211:55: note: expected 'const char *' but argument is of type 'uint8_t * {aka unsigned char *}'
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Src\stm32l1xx_hal_msp.o ..\Src\stm32l1xx_hal_msp.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_uart.o ..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_uart.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dac_ex.o ..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dac_ex.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_rcc_ex.o ..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_rcc_ex.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_pwr.o ..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_pwr.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_gpio.o ..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_gpio.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dac.o ..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dac.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_cortex.o ..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_cortex.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal.o ..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_pwr_ex.o ..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_pwr_ex.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_rcc.o ..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_rcc.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_tim.o ..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_tim.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Src\main.o ..\Src\main.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash_ex.o ..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash_ex.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Src\system_stm32l1xx.o ..\Src\system_stm32l1xx.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash.o ..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32L152xE -I../Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_tim_ex.o ..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_tim_ex.c 
+arm-atollic-eabi-gcc -o lab4.elf Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_cortex.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dac.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dac_ex.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dma.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash_ex.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash_ramfunc.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_gpio.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_pwr.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_pwr_ex.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_rcc.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_rcc_ex.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_tim.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_tim_ex.o Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_uart.o Src\main.o Src\stm32l1xx_hal_msp.o Src\stm32l1xx_it.o Src\system_stm32l1xx.o startup\startup_stm32l152xe.o -mthumb -mcpu=cortex-m3 -T../STM32L152RE_FLASH.ld -specs=nosys.specs -static -Wl,-Map=lab4.map -Wl,--gc-sections -Wl,--defsym=malloc_getpagesize_P=0x80 -Wl,--start-group -lc -lm -Wl,--end-group -specs=nano.specs 
+E:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.0.1\ide\jre\bin\java -jar E:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.0.1\Tools\arm-atollic-reports.jar sizeinfo list lab4.elf 
+Generate build reports...
+Print size information
+   text	   data	    bss	    dec	    hex	filename
+   8556	    112	   1672	  10340	   2864	lab4.elf
+Print size information done
+Generate listing file
+Output sent to: lab4.list
+Generate listing file done
+Generate build reports done
+Info: Nothing to build for lab4
